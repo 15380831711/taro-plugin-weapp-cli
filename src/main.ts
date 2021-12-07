@@ -3,7 +3,7 @@ const path = require('path');
 
 export default (ctx: any, options: any) => {
     ctx.onBuildFinish(() => {
-        const platform = ctx.runOpts.platform ?? ctx.runOpts.options.platform;
+        const platform = ctx.runOpts.platform || ctx.runOpts.options.platform;
         if (platform !== 'weapp') {
             return;
         }
