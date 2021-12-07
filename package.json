@@ -1,0 +1,33 @@
+{
+    "name": "taro-plugin-weapp-cli",
+    "version": "1.0.0",
+    "description": "taro-plugin-weapp-cli",
+    "main": "main.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "publish": "npm publish --access public"
+    },
+    "keywords": [
+        "taro",
+        "plugin",
+        "weapp",
+        "cli"
+    ],
+    "author": "",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/15380831711/taro-plugin-weapp-cli.git"
+    },
+    "dependencies": {
+        "@tarojs/service": "^3.3.3",
+        "shelljs": "^0.8.4"
+    },
+    "devDependencies": {
+        "@types/shelljs": "^0.8.8",
+        "typescript": "^4.2.3"
+    }
+}
